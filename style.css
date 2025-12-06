@@ -8,12 +8,14 @@ body{
     background-size: cover;
    background-position: center -400px;
    cursor: url(cursor.png), auto;
+     font-family: url('Panchang-Regular.otf');
+     
     
 }
 
 #bunny {
     position: absolute;
-    margin-top: -75px;
+    margin-top: 35px;
     margin-left: -500px;
 }
 .card{
@@ -21,7 +23,7 @@ body{
     height: 65%;
     position: relative;
     background-color: rgba(0, 0, 0, 0);
-    font-family: url(Panchang-Regular.otf); 
+    font-family: url('Panchang-Regular.otf');
     transform-style: preserve-3d;
  
 }
@@ -79,6 +81,7 @@ body{
        margin-top: 50px;
     -webkit-text-stroke: 0.1px #C2B8B8;
     text-shadow: 5px 5px 20px #C2B8B8;
+      font-family: 'Panchang';
 }
 
 .discord_STATUS #avatar {
@@ -108,5 +111,4 @@ body{
 a{
     color:#C2B8B8 !important;
     text-decoration: none !important ;
-
 }
