@@ -1,0 +1,111 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+    background-image: url(./assets/images/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   background-position: center -400px;
+   cursor: url(./assets/images/cursor.png), auto;
+    
+}
+
+#bunny {
+    position: absolute;
+    margin-top: -75px;
+    margin-left: -500px;
+}
+.card{
+    width: 50%;
+    height: 65%;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0);
+    font-family: 'Panchang'; 
+    transform-style: preserve-3d;
+ 
+}
+.card img{
+    position: absolute;
+    margin-top: 20px;
+}
+
+.card h1, .bio h4, .bio p {
+    font-family: 'Panchang';
+    margin-top: 70px;
+    margin-left: 150px;
+    font-size: 40px;
+    font-weight: 900;
+    color:#C2B8B8;
+    -webkit-text-stroke: 0.1px #C2B8B8;
+    text-shadow: 5px 5px 20px #C2B8B8;
+}
+
+.bio h4{
+    font-size:15px;
+    margin-top: -10px;
+}
+
+.bio p{
+    font-size: 10px;
+    opacity: 0.5;
+    margin-top: -3px;
+}
+@font-face {
+  font-family: 'Panchang';
+  src: url('./assets/font/Panchang-Regular.otf');
+  font-weight:300;
+}
+
+.titulo img{
+    position: absolute;
+    top:60px;
+    width: 100px;
+    height: 50px;
+    right: 590px;
+    pointer-events: none;
+}
+
+.discord_STATUS{
+    justify-content: center;
+    align-items: center;
+    position:relative;
+       color:#C2B8B8;
+       width: 300px;
+       height: 100px;
+       border-radius: 20px;
+       background-color: rgba(0, 0, 0, 0.2);
+       margin-left: 30px;
+       margin-top: 50px;
+    -webkit-text-stroke: 0.1px #C2B8B8;
+    text-shadow: 5px 5px 20px #C2B8B8;
+}
+
+.discord_STATUS #avatar {
+    border-radius: 50px;
+    margin-left: 10px;
+}
+
+.discord_STATUS #offline{
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 40px;
+}
+
+.discord_STATUS a{
+    position: absolute;
+    margin-left: 80px;
+    margin-top: 30px;
+}
+
+.discord_STATUS p{
+    font-size: 10px;
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 80px;
+}
+
+a{
+    color:#C2B8B8 !important;
+    text-decoration: none !important ;
+}
