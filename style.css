@@ -26,18 +26,23 @@ body{
     z-index: 9999;
     cursor: pointer;
     backdrop-filter: blur(10px);
+    font-family: 'Panchang';
 }
 
 .overlay-content {
     text-align: center;
+    font-family: 'Panchang';
     animation: fadeIn 0.5s ease;
 }
 
 .overlay-content h2 {
-    color: white;
+    font-family: 'Panchang';
+    color: #C2B8B8;
     font-size: 2.5rem;
     margin-bottom: 10px;
     font-weight: 300;
+    -webkit-text-stroke: 0.1px #C2B8B8;
+    text-shadow: 5px 5px 20px #C2B8B8;
 }
 
 .overlay-content p {
