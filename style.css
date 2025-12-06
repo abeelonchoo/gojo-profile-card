@@ -21,7 +21,7 @@ body{
     height: 65%;
     position: relative;
     background-color: rgba(0, 0, 0, 0);
-    font-family: 'Panchang'; 
+    font-family: url(Panchang-Regular.otf); 
     transform-style: preserve-3d;
  
 }
@@ -108,4 +108,5 @@ body{
 a{
     color:#C2B8B8 !important;
     text-decoration: none !important ;
+
 }
